@@ -1,0 +1,8 @@
+0:00 - 0:25 Presenter:
+Joe Rogan
+Joseph James Rogan is an American comedian and podcast host. He has also worked as a mixed martial arts color commentator, television host, and occasional actor.
+image:
+https://i.ytimg.com/vi/ESYYby1FuPc/maxresdefault.jpg
+twitter:
+https://twitter.com/joerogan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+
