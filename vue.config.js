@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: "https://github.com/phillt/podcastvision/"
+    publicPath: "https://github.com/phillt/podcastvision/dist/"
 }
