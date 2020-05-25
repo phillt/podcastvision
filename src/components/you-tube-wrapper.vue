@@ -5,7 +5,7 @@
             frameborder="0"
             id="video-id-stuff"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
+            allowfullscreen="false">
     </iframe>
 </template>
 <script>
