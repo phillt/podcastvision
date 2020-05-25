@@ -1,7 +1,7 @@
 <template>
     <iframe width="560"
             height="315"
-            :src="`https://www.youtube.com/embed/${videoId}?enablejsapi=1&fs=0&playsinline=0`"
+            :src="`https://www.youtube.com/embed/${videoId}?enablejsapi=1&fs=0&playsinline=1`"
             frameborder="0"
             id="video-id-stuff"
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture">
