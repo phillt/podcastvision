@@ -4,8 +4,7 @@
             :src="`https://www.youtube.com/embed/${videoId}?enablejsapi=1`"
             frameborder="0"
             id="video-id-stuff"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen="false">
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
     </iframe>
 </template>
 <script>
