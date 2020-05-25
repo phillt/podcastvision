@@ -45,7 +45,8 @@
             window.onYouTubeIframeAPIReady = () => {
                  this.player = new global.YT.Player('video-id-stuff', {
                      playerVars: {
-                         playsinline: 1
+                         playsinline: 1,
+                         controls: 0,
                      },
                     events: {
                         'onReady': () => this.$emit("player-ready"),
