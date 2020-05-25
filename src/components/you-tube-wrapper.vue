@@ -4,7 +4,7 @@
             :src="`https://www.youtube.com/embed/${videoId}?enablejsapi=1`"
             frameborder="0"
             id="video-id-stuff"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture">
     </iframe>
 </template>
 <script>
@@ -44,9 +44,9 @@
             // let player;
             window.onYouTubeIframeAPIReady = () => {
                  this.player = new global.YT.Player('video-id-stuff', {
-                 playerVars: {
-                     playsinline: 1
-                 },
+                     playerVars: {
+                         playsinline: 1
+                     },
                     events: {
                         'onReady': () => this.$emit("player-ready"),
                         'onStateChange': ({data}) => this.handlePlayerStateChange(data),
